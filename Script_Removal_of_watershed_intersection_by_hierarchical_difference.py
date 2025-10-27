@@ -276,7 +276,7 @@ def process_basin_difference():
     for i, current_stat in enumerate(elevation_stats):
         suffix = current_stat['suffix']
         # Save influence_area files in the FINAL_POLYGON directory
-        output_path = os.path.join(final_polygon_dir, f"influence_area_{suffix}.shp")
+        output_path = os.path.join(final_polygon_dir, f"exclusive_contribution_area_{suffix}.shp")
 
         if i == 0:
             processing.run("native:savefeatures", {
@@ -322,5 +322,6 @@ def process_basin_difference():
 process_basin_delimitation()
 calculate_zonal_statistics()
 process_basin_difference()
+
 
 print("Processing completed successfully! All the parts have been executed.")
