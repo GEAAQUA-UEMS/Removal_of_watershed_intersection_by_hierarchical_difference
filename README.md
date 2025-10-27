@@ -64,7 +64,7 @@ However, we recommend that the user saves this layer to disk, as this makes it e
 - `basin_[Point].shp` - Delimited basins for each exuctory point.
 - `dissolved_basin_[Point].shp` - Basins with corrected geometries.
 - `zonal_basin_[Point].shp` - Shapefile with zonal statistics.
-- `influence_area_[Point].shp` - Single basins after differences between overlapping areas (area of influence of each point).
+- `exclusive_contribution_area_[Point].shp` - Exclusive Contribution Area for each point.
 
 ## Recommendations and Care
 
