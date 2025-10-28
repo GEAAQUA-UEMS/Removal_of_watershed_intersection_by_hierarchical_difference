@@ -23,13 +23,13 @@ This is possible using existing tools (r.watershed, r.water.outlet, Polygonize, 
 
 ## Requirements
 
-- QGIS:** Version 3.34.5 or higher.
+- QGIS:** Version 3.34.5.
 - **Operating Systems:** Windows or Linux.
 - Required plugins:** GRASS GIS provider and GDAL Tools
 
 ## Installation and configuration
 
-1. install QGIS (version 3.34.5 or higher);
+1. install QGIS (version 3.34.5);
 2. In QGIS, install and/or enable the GRASS plugin:
    - Go to: `Plugins` > `Manage and Install Plugins`.
    - Search for “GRASS GIS provider” and install it.
