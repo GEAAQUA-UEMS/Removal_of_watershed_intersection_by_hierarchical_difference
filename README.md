@@ -19,7 +19,7 @@ This is possible using existing tools (r.watershed, r.water.outlet, Polygonize, 
 
 - Henrique Ledo Lopes Pinho
 - Jéssica Bassani de Oliveira 
-- Yzel Rondon Suarez
+- Yzel Rondon Súarez
 
 ## Requirements
 
