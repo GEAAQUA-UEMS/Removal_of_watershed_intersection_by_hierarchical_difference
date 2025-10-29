@@ -12,7 +12,7 @@ Pinho, H. L. L., Oliveira, J. B., & Súarez, Y. R. (2025). Removal_of_watershed_
 
 ## General Description
 
-This script was developed to run exclusively in the QGIS environment (versions 3.34.5 or higher).
+This script was developed to run exclusively in the QGIS environment (versions 3.34.5).
 
 Run the “Difference” tool iteratively between intersecting polygons, giving priority to those with a higher elevation value.
 
