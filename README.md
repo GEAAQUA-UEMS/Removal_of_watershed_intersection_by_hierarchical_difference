@@ -3,12 +3,9 @@ Script for QGIS that automates the hierarchical difference of overlapping polygo
 
 ## Authors
 
- Henrique Ledo Lopes Pinho
- Jéssica Bassani de Oliveira
- Yzel Rondon Súarez
-
-You must retain the above copyright notice and this permission notice in all copies or substantial portions of the Software.
-If you use or modify this code, please give proper credit to the original authors. 
+ -Henrique Ledo Lopes Pinho
+ -Jéssica Bassani de Oliveira
+ -Yzel Rondon Súarez
 
 ## How to reference
 
