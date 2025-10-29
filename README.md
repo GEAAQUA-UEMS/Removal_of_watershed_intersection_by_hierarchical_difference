@@ -2,10 +2,9 @@
 Script for QGIS that automates the hierarchical difference of overlapping polygons, prioritizing areas of higher elevation, reducing the effect of geostatistical circularity in spatial analyses, eliminating the need for repetitive manual adjustments with the 'Difference' tool. Ideal for watershed studies with multiple sampling points.
 
 ## Authors
-
- -Henrique Ledo Lopes Pinho
- -Jéssica Bassani de Oliveira
- -Yzel Rondon Súarez
+-Henrique Ledo Lopes Pinho
+-Jéssica Bassani de Oliveira
+-Yzel Rondon Súarez
 
 ## How to reference
 
