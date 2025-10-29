@@ -1,8 +1,18 @@
 # Removal_of_watershed_intersection_by_hierarchical_difference
 Script for QGIS that automates the hierarchical difference of overlapping polygons, prioritizing areas of higher elevation, reducing the effect of geostatistical circularity in spatial analyses, eliminating the need for repetitive manual adjustments with the 'Difference' tool. Ideal for watershed studies with multiple sampling points.
 
-# README - Removal of watershed intersection by hierarchical difference
-
+/*
+ * Copyright (C) 2025 Henrique Ledo Lopes Pinho; Jéssica Bassani de Oliveira; Yzel Rondon Súarez
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; version 2 of the License.
+ *
+ * You must retain the above copyright notice and this permission notice
+ * in all copies or substantial portions of the Software.
+ *
+ * If you use or modify this code, please give proper credit to the original author(s).
+ */
 ## General Description
 
 This script was developed to run exclusively in the QGIS environment (versions 3.34.5 or higher).
