@@ -10,7 +10,7 @@ Yzel Rondon Súarez
 
 If this code has helped you in any step of your work, please follow the terms of the GNU GPL v2 license and give due credit to the authors.
 
-Pinho, H. L. L., Oliveira, J. B., & Súarez, Y. R. (2025). Removal_of_watershed_intersection_by_hierarchical_difference [Computer software]. Licensed under GNU General Public License v2 (GPL-2.0). Available at: [repository link].
+Pinho, H. L. L., Oliveira, J. B., & Súarez, Y. R. (2025). Removal_of_watershed_intersection_by_hierarchical_difference [Semi-automated QGIS processing script]. Licensed under GNU General Public License v2 (GPL-2.0). Available at: [repository link].
 
 ## General Description
 
