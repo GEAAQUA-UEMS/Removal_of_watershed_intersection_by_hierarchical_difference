@@ -3,9 +3,9 @@
 Semi-automated script for QGIS that generates exclusive contribution areas, automating the hierarchical difference between overlapping polygons and prioritizing areas of higher elevation. It is especially useful in hydrological and limnological studies for environmental monitoring with multiple sampling points.
 
 ## Authors
-Henrique Ledo Lopes Pinho,
-Jéssica Bassani de Oliveira,
-Yzel Rondon Súarez
+- Henrique Ledo Lopes Pinho
+- Jéssica Bassani de Oliveira
+- Yzel Rondon Súarez
 
 ## How to reference
 
@@ -95,18 +95,18 @@ and this is due to the limited spatial resolution of the DEM and not due to algo
 
 ## Institutional support and partnerships
 
--State University of Mato Grosso do Sul (UEMS), Dourados, Brazil
--Center for Studies in Natural Resources (CERNA-UEMS), Dourados, Brazil
--Postgraduate Program in Natural Resources (PGRN-UEMS), Dourados, Brazil
--Bachelor's Degree in Information Systems (UEMS), Dourados, Brazil
--Aquatic Environments Studies Laboratory (GEAAQUA - UEMS), Dourados, Brazil
--Technological Innovation Center of the State University of Mato Grosso do Sul (NIT-UEMS), Brazil
+- State University of Mato Grosso do Sul (UEMS), Dourados, Brazil
+- Center for Studies in Natural Resources (CERNA-UEMS), Dourados, Brazil
+- Postgraduate Program in Natural Resources (PGRN-UEMS), Dourados, Brazil
+- Bachelor's Degree in Information Systems (UEMS), Dourados, Brazil
+- Aquatic Environments Studies Laboratory (GEAAQUA - UEMS), Dourados, Brazil
+- Technological Innovation Center of the State University of Mato Grosso do Sul (NIT-UEMS), Brazil
 
 ## Development agencies
 
--Coordination for the Improvement of Higher Education Personnel (CAPES), Brazil
--National Council for Scientific and Technological Development (CNPq), Brazil
--Foundation for Support of Education, Science and Technology of the State of Mato Grosso do Sul (Fundect), Brazil
+- Coordination for the Improvement of Higher Education Personnel (CAPES), Brazil
+- National Council for Scientific and Technological Development (CNPq), Brazil
+- Foundation for Support of Education, Science and Technology of the State of Mato Grosso do Sul (Fundect), Brazil
 
 ## Contact
 
