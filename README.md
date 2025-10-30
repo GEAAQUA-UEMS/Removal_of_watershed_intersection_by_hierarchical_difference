@@ -85,13 +85,13 @@ However, we recommend that the user saves this layer to disk, as this makes it e
 and this is due to the limited spatial resolution of the DEM and not due to algorithmic limitations.
 
 ## Situations in which the algorithm will not work:
--Use versions prior to 3.34-Prizren to run the script;
--Different coordinate reference system between the .shp file and the raster file;
--Exuture coordinates outside the pixel of the stream segment;
--Space in the .txt file;
--The coordinates of the exuctory points are different from those in the .shp file;
--The column names are different from the example file.
--Try running it a second time without deleting the "INTERMEDIARY_FILES" and "FINAL_POLYGONS" folder.
+- Use versions prior to 3.34-Prizren to run the script;
+- Different coordinate reference system between the .shp file and the raster file;
+- Exuture coordinates outside the pixel of the stream segment;
+- Space in the .txt file;
+- The coordinates of the exuctory points are different from those in the .shp file;
+- The column names are different from the example file.
+- Try running it a second time without deleting the "INTERMEDIARY_FILES" and "FINAL_POLYGONS" folder.
 
 ## Institutional support and partnerships
 
