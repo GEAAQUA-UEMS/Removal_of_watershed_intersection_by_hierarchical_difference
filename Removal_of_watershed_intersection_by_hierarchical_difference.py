@@ -57,7 +57,7 @@ dem_path = "C:/EXAMPLE/ELEVATION_RASTER/DEM.tif" #Directory where the digital el
 exutory_txt = "C:/EXAMPLE/EXUTORY_COORDINATES/EXUTORY_COORDINATES.txt"#Directory where this coordinates of the exuctory are stored
 collection_shp = "C:/EXAMPLE/COLLECTED_POINTS/Collected_Points.shp"#Directory where the shapefile with the collected points is stored
 intermediary_layers_dir = "C:/EXAMPLE/INTERMEDIARY_FILES/"#Defines the output directory for the intermediate layers (generates a new folder)
-final_polygon_dir = "C:/EXAMPLE/FINAL_POLYGONS/"#Defines the output directory containing the areas of influence (generates a new folder)
+final_polygon_dir = "C:/EXAMPLE/FINAL_POLYGONS/"#Define the output directory that will contain the exclusive contribution areas (generates a new folder)
 stream_segments_path = "C:/EXAMPLE/STREAM_SEGMENTS/stream_segments.tif"#Directory where the stream segment this stored (Optional)
 threshold = 1000#Threshold parameter for basins outside the main watercourse
 convergence = 5#Convergence factor for multiple flow direction
@@ -275,7 +275,7 @@ def process_basin_difference():
 
     for i, current_stat in enumerate(elevation_stats):
         suffix = current_stat['suffix']
-        # Save influence_area files in the FINAL_POLYGON directory
+        # Save exclusive_contribution_area files in the FINAL_POLYGON directory
         output_path = os.path.join(final_polygon_dir, f"exclusive_contribution_area_{suffix}.shp")
 
         if i == 0:
@@ -303,11 +303,11 @@ def process_basin_difference():
 
         output_files.append(output_path)
 
-    # Load all layers to the project (including influence_area files from FINAL_POLYGON)
+    # Load all layers to the project (including exclusive_contribution_area files from FINAL_POLYGON)
     project = QgsProject.instance()
     
     
-    # Load final influence_area files from FINAL_POLYGON directory
+    # Load final exclusive_contribution_area files from FINAL_POLYGON directory
     for output_file in output_files:
         layer_name = os.path.basename(output_file).replace(".shp", "")
         layer = QgsVectorLayer(output_file, layer_name, "ogr")
@@ -325,3 +325,4 @@ process_basin_difference()
 
 
 print("Processing completed successfully! All the parts have been executed.")
+
