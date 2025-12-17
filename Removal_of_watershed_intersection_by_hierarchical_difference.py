@@ -1,6 +1,6 @@
 """
 **********************************************************************************************************************
-    Removal of watershed intersection by hierarchical difference.py                                                  *
+    HED-ECA - Removal of watershed intersection by hierarchical difference.py                                                  *
     -----------------------------------------------------------------------------------------------------------------*
     Date                 : March 2025                                                                                *
     Copyright            : (C) 2025 by Henrique Ledo Lopes Pinho, Jéssica Bassani de Oliveira, Yzel Rondon Súarez    *
@@ -325,4 +325,5 @@ process_basin_difference()
 
 
 print("Processing completed successfully! All the parts have been executed.")
+
 
