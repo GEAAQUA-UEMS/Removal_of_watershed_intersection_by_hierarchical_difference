@@ -54,7 +54,7 @@ This is possible using existing tools (r.watershed, r.water.outlet, Polygonize, 
 - `stream_segment.tif` - (Optional) The script does not require this layer to be saved in a specific directory in order to work. 
 However, we recommend that the user saves this layer to disk, as this makes it easier to visually check that the points are correctly positioned in the pixel corresponding to the stream segment.
 - `INTERMEDIARY_FILES/` - Folder for intermediate output files.
-- `FINAL_POLYGONS/` - Folder for the final output files (areas of influence).
+- `FINAL_POLYGONS/` - Folder for the final output files (areas of exclusive contribution).
 
 ## Running the Script
 
