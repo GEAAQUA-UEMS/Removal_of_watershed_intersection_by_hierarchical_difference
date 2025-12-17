@@ -1,4 +1,4 @@
-# Removal_of_watershed_intersection_by_hierarchical_difference
+# HED-ECA - Removal_of_watershed_intersection_by_hierarchical_difference
 
 Semi-automated script for QGIS that generates exclusive contribution areas, automating the hierarchical difference between overlapping polygons and prioritizing areas of higher elevation. It is especially useful in hydrological and limnological studies for environmental monitoring with multiple sampling points.
 
@@ -11,7 +11,7 @@ Semi-automated script for QGIS that generates exclusive contribution areas, auto
 
 If this code has helped you in any step of your work, please follow the terms of the GNU GPL v2 license and give due credit to the authors.
 
-Pinho, H. L. L., Oliveira, J. B., & Súarez, Y. R. (2025). Removal_of_watershed_intersection_by_hierarchical_difference [Semi-automated QGIS processing script]. Licensed under GNU General Public License v2 (GPL-2.0). Available at: [repository link].
+Pinho, H. L. L., Oliveira, J. B., & Súarez, Y. R. (2025). HED-ECA - Removal_of_watershed_intersection_by_hierarchical_difference [Semi-automated QGIS processing script]. Licensed under GNU General Public License v2 (GPL-2.0). Available at: [repository link].
 
 ## General Description
 
