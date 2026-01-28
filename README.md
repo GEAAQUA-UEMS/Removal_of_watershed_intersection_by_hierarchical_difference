@@ -2,17 +2,6 @@
 
 Semi-automated script for QGIS that generates exclusive contribution areas, automating the hierarchical difference between overlapping polygons and prioritizing areas of higher elevation. It is especially useful in hydrological and limnological studies for environmental monitoring with multiple sampling points.
 
-## Authors
-- Henrique Ledo Lopes Pinho
-- Jéssica Bassani de Oliveira
-- Yzel Rondon Súarez
-
-## How to reference
-
-If this code has helped you in any step of your work, please follow the terms of the GNU GPL v2 license and give due credit to the authors.
-
-Pinho, H. L. L., Oliveira, J. B., & Súarez, Y. R. (2025). HED-ECA - Removal_of_watershed_intersection_by_hierarchical_difference [Semi-automated QGIS processing script]. Licensed under GNU General Public License v2 (GPL-2.0). Available at: [repository link].
-
 ## General Description
 
 This script was developed to run exclusively in the QGIS environment (versions 3.34.5).
@@ -92,27 +81,6 @@ and this is due to the limited spatial resolution of the DEM and not due to algo
 - The coordinates of the exuctory points are different from those in the .shp file;
 - The column names are different from the example file.
 - Try running it a second time without deleting the "INTERMEDIARY_FILES" and "FINAL_POLYGONS" folder.
-
-## Institutional support and partnerships
-
-- State University of Mato Grosso do Sul (UEMS), Dourados, Brazil
-- Center for Studies in Natural Resources (CERNA-UEMS), Dourados, Brazil
-- Postgraduate Program in Natural Resources (PGRN-UEMS), Dourados, Brazil
-- Bachelor's Degree in Information Systems (UEMS), Dourados, Brazil
-- Aquatic Environments Studies Laboratory (GEAAQUA - UEMS), Dourados, Brazil
-- Technological Innovation Center of the State University of Mato Grosso do Sul (NIT-UEMS), Brazil
-
-## Development agencies
-
-- Coordination for the Improvement of Higher Education Personnel (CAPES), Brazil
-- National Council for Scientific and Technological Development (CNPq), Brazil
-- Foundation for Support of Education, Science and Technology of the State of Mato Grosso do Sul (Fundect), Brazil
-
-## Contact
-
-For support or questions, please contact one of the authors at: geaaqua@uems.br
-
----
 
 ## License
 
