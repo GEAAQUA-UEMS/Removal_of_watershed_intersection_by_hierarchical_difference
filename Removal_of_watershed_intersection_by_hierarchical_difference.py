@@ -53,7 +53,7 @@ def add_layer_to_project(layer, name):
 
 # Initial configuration: Paths and Global Parameters
 # ====================================================
-dem_path = "C:/quick_test_data/ELEVATION_RASTER/DEM.tif" #Directory where the digital elevation model raster is stored
+dem_path = "C:/quick_test_data/ELEVATION_RASTER/DSM.tif" #Directory where the digital elevation model raster is stored
 exutory_txt = "C:/quick_test_data/EXUTORY_COORDINATES/EXUTORY_COORDINATES.txt"#Directory where this coordinates of the exuctory are stored
 collection_shp = "C:/quick_test_data/COLLECTED_POINTS/Collected_Points.shp"#Directory where the shapefile with the collected points is stored
 intermediary_layers_dir = "C:/quick_test_data/INTERMEDIARY_FILES/"#Defines the output directory for the intermediate layers (generates a new folder)
@@ -325,6 +325,7 @@ process_basin_difference()
 
 
 print("Processing completed successfully! All the parts have been executed.")
+
 
 
 
